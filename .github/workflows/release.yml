@@ -5,6 +5,12 @@ on:
     tags:
       - 'v*'
 
+<<<<<<< HEAD
+=======
+permissions:
+  contents: write
+
+>>>>>>> 03ff6d6 (:construction_worker: 添加 goreleaser)
 jobs:
   release:
     runs-on: ubuntu-latest
